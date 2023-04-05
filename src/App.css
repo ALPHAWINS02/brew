@@ -1,0 +1,73 @@
+.wrapper
+   {
+    display: block;
+   width: 1500px;
+   margin-right: auto;
+   margin-left: auto;
+   }
+   @media (max-width: 992px) {
+    .wrapper{
+      display: block;
+      width: auto;
+      margin-right: auto;
+      margin-left: auto;
+    }
+   }
+
+
+
+.App {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#light {
+  background-color: #ffffff;
+}
+
+#dark {
+  background-color: #181614;
+  color:white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #e1bee7;
+  text-decoration: none;
+}
+
+#dark Container{
+  color:white;
+}
+
+@media (max-width: 600px) {
+  .main {
+    border-radius: 0px;
+  }
+}
+
+.switch {
+  z-index: 100;
+  position:relative;
+  top: 60px;
+  left: 90%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dark .grid-element{
+  background-color: #2C2C2C;
+}
+
+#dark .prime-grid-element{
+  background-color: #2C2C2C;
+}
+
+#dark .about-grid-element{
+  background-color: #2C2C2C;
+}
