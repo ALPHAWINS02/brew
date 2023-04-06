@@ -139,8 +139,9 @@
           display:flex;
           margin-top: 50px;
           margin-left: 150px;
+          margin-right: 20px;
           column-gap: 10px;
-          height: 525px;          
+          height: 610px;          
           row-gap: -20px;
           grid-auto-flow: column;
           overflow: scroll;
@@ -148,16 +149,20 @@
       }
 
       .prime-grid-element{                                       
-        width: 530px;
-        height: 370px;
-        margin-left: 5%;
+        width: 500px;
+        height: 470px;
+        margin-left: 1%;
+        padding-right: 200px;
         
       }
       .prime-grid-element p{
-        font-size: 20px;
-        width: 300px;
+        font-size: 30px;
+        width: 600px;
         text-align: justify;
         
+      }
+      .prime-grid-element ul {
+        font-size: 30px;
       }
       .img-box2 p{
         text-align: left;
