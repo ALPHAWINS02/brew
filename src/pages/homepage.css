@@ -114,6 +114,7 @@
   .prime-grid img{
     width: 65px;
     height: 65px;
+    margin-left: 2%
   }
 
   .prime-grid-element p{
@@ -125,7 +126,7 @@
   
   }
   .prime-grid-element ul {
-    margin-left: 5%;
+    margin-left: 9%;
   }
 
 
